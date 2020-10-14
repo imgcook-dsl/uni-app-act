@@ -1,0 +1,148 @@
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 1068upx;
+}
+
+.bd {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  opacity: 1;
+  width: 684upx;
+  height: 684upx;
+}
+
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 684upx;
+  height: 684upx;
+  overflow: hidden;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  width: 684upx;
+  height: 684upx;
+}
+
+.wrap {
+  box-sizing: border-box;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 36upx;
+  margin-left: 36upx;
+  border-radius: 30upx;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-right: 18upx;
+  padding-left: 20upx;
+  height: 60upx;
+}
+
+.riverdinwei {
+  opacity: 1;
+  width: 28upx;
+  height: 36upx;
+}
+
+.distance {
+  margin-left: 8upx;
+  height: 44upx;
+  font-weight: 400;
+  font-size: 36upx;
+  color: #ffffff;
+  line-height: 44upx;
+  white-space: nowrap;
+}
+
+.main {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #ffffff;
+  width: 684upx;
+  height: 228upx;
+}
+
+.title {
+  margin-top: 44upx;
+  width: 600upx;
+  height: 176upx;
+  font-weight: 400;
+  font-size: 60upx;
+  color: #333333;
+  line-height: 88upx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ft {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom-left-radius: 24upx;
+  border-bottom-right-radius: 24upx;
+  background-color: #ffffff;
+  padding-right: 34upx;
+  padding-left: 36upx;
+  width: 684upx;
+  height: 156upx;
+  overflow: hidden;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: 60upx;
+}
+
+.xianjin {
+  width: 60upx;
+  height: 60upx;
+}
+
+.fashionHome {
+  margin-left: 12upx;
+  height: 56upx;
+  font-weight: 300;
+  font-size: 48upx;
+  color: #666666;
+  line-height: 56upx;
+  white-space: nowrap;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: 60upx;
+}
+
+.favorite {
+  width: 44upx;
+  height: 44upx;
+}
+
+.num {
+  margin-left: 10upx;
+  height: 52upx;
+  font-weight: 400;
+  font-size: 44upx;
+  color: #999999;
+  line-height: 52upx;
+  white-space: nowrap;
+}
